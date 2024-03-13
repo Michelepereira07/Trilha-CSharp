@@ -1,14 +1,22 @@
 ﻿using System.Drawing;
 using System.Globalization;
 
-int funcionario= 1;
-int horas= 200;
-double salario = 20.50;
+internal class Program
+{
+    private static void Main(string[] args)
+    {
+        int id, horas;
+        double valorHora, salario;
 
-var resultado = horas * salario;
+        //converter string para inteiro
+        id = int.Parse(Console.ReadLine());
+        horas = int.Parse(Console.ReadLine());
+        valorHora = double.Parse(Console.ReadLine(), CultureInfo.CreateSpecificCulture("en-US"));
 
-var teste = string.Format(CultureInfo.GetCultureInfo("pt-BR"), "US$ {0:####.##}", resultado);
+        salario = horas * valorHora;
 
-Console.WriteLine($"NUMBER = {funcionario}");
-Console.WriteLine($"SALARY = {resultado}");
-Console.WriteLine(teste);
+        Console.WriteLine("NUMBER = " + id);
+        Console.WriteLine("SALARY = U$ " + salario.ToString("F2", CultureInfo.CreateSpecificCulture("en-US")));
+        Console.Read();
+    }
+}

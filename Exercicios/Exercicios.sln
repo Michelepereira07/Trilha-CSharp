@@ -7,17 +7,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Notas1", "Notas1\Notas1.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Projeto2", "Projeto2\Projeto2.csproj", "{9D9E2396-A7EF-4F40-A874-8B93C88470C7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraGPA", "CalculadoraGPA\CalculadoraGPA.csproj", "{8C6877A8-F46F-4F14-9012-76EF0FBFC6AC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CalculadoraGPA", "CalculadoraGPA\CalculadoraGPA.csproj", "{8C6877A8-F46F-4F14-9012-76EF0FBFC6AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaDoCirculo", "Teste\AreaDoCirculo.csproj", "{87FCE351-082A-4134-A891-62DED0B4D540}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AreaDoCirculo", "Teste\AreaDoCirculo.csproj", "{87FCE351-082A-4134-A891-62DED0B4D540}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SomaSimples", "SomaSimples\SomaSimples.csproj", "{AF357286-F788-44A4-856B-892E1B7C1BA3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SomaSimples", "SomaSimples\SomaSimples.csproj", "{AF357286-F788-44A4-856B-892E1B7C1BA3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Média1", "Média1\Média1.csproj", "{9C3DA421-7B1C-4A65-BD36-75EA34DED5E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Média1", "Média1\Média1.csproj", "{9C3DA421-7B1C-4A65-BD36-75EA34DED5E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Diferenca", "Diferenca\Diferenca.csproj", "{BE051045-862C-4DD1-8A58-39A3315DFE49}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Diferenca", "Diferenca\Diferenca.csproj", "{BE051045-862C-4DD1-8A58-39A3315DFE49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salario", "Salario\Salario.csproj", "{4D4890E4-6AAB-46FE-8934-FA0A8680BFD2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salario", "Salario\Salario.csproj", "{4D4890E4-6AAB-46FE-8934-FA0A8680BFD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalarioComBonus", "SalarioComBonus\SalarioComBonus.csproj", "{717C7B19-79D4-4A1E-956B-FBE9F074C0D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{4D4890E4-6AAB-46FE-8934-FA0A8680BFD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D4890E4-6AAB-46FE-8934-FA0A8680BFD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D4890E4-6AAB-46FE-8934-FA0A8680BFD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{717C7B19-79D4-4A1E-956B-FBE9F074C0D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{717C7B19-79D4-4A1E-956B-FBE9F074C0D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{717C7B19-79D4-4A1E-956B-FBE9F074C0D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{717C7B19-79D4-4A1E-956B-FBE9F074C0D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

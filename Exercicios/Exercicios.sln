@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoSimples", "CalculoSi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Esfera", "Esfera\Esfera.csproj", "{2FCA69B5-77E1-45F5-A377-353843C4AFA7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Área", "ConsoleApp1\Área.csproj", "{482E2CE4-A6D2-40A4-A02F-566F722FA351}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaiordeTresValores", "MaiordeTresValores\MaiordeTresValores.csproj", "{B878C8DF-480E-4E38-A606-255B50F62457}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +79,14 @@ Global
 		{2FCA69B5-77E1-45F5-A377-353843C4AFA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FCA69B5-77E1-45F5-A377-353843C4AFA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FCA69B5-77E1-45F5-A377-353843C4AFA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{482E2CE4-A6D2-40A4-A02F-566F722FA351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{482E2CE4-A6D2-40A4-A02F-566F722FA351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{482E2CE4-A6D2-40A4-A02F-566F722FA351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{482E2CE4-A6D2-40A4-A02F-566F722FA351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B878C8DF-480E-4E38-A606-255B50F62457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B878C8DF-480E-4E38-A606-255B50F62457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B878C8DF-480E-4E38-A606-255B50F62457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B878C8DF-480E-4E38-A606-255B50F62457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
